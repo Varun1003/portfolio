@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Styling body */
+    body{
+    font-family: 'Gemunu Libre', sans-serif;
+    padding: 0 116px;
+    }
+    .flex{
+    display: flex;
+    }
+    .space-evenly{
+    justify-content: space-evenly;
+    }
+    .space-between{
+    justify-content: space-between;
+    }
+    .align-center{
+    align-items: center;
+    }
+    .direction-column{
+    flex-direction: column;
+    }
+    .wrap{
+    flex-wrap: wrap;
+    }
+
+
+    nav{
+        height: 180px;
+        width: 70%;
+        }
+        nav>a{
+        color: black;
+        font-weight: 500;
+        text-decoration: none;
+        }
+        nav>a:hover{
+        color: #A3CB38;
+        font-weight: bold;
+        font-size: 20px;
+        }
+        /* Styling Header section */
+        header{
+        min-height: 620px;
+        flex-wrap: wrap-reverse;
+        }
+        .header-text{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 536px;
+        }
+        header img{
+        size: 100%;
+        }
+        .bg-green{
+        position: absolute;
+        width: 446px;
+        height: 629px;
+        left: 948px;
+        top: 0px;
+        right: 492px;
+        background: #A3CB38;
+        border-radius: 0px 0px 100px 0px;
+        z-index: -1;
+        }
+        h2{
+        font-size: 54px;
+        }
+        .button{
+        height: 50px;
+        width: 150px;
+        border-radius: 4px;
+        background-color:#A3CB38 ;
+        margin-top: 32px;
+        }
+        .button p{
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        }
+        
+        
+/* Styling main hustle */
+.my-main-huslte{
+    position: absolute;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    min-height: 550px;
+    width: 636px;
+    z-index: -1;
+    left: 0px;
+    }
+    .my-main-huslte-text{
+    margin-top: 1%;
+    max-width: 555px;
+    margin-left: 200px;
+    }
+    .my-main-huslte-container>h1{
+    max-width: 653px;
+    }
+    h3{
+    color: #A3CB38;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    h4{
+    font-size: 18px;
+    }
+    h1{
+    font-size: 100px;
+    line-height: 100px;
+    
+    }
+
+/* Styling my work */
+.my-work{
+min-height: 1045px;
+flex-direction: column;
+
+}
+.my-work>p{
+text-align: center;
+}
+.my-work-container{
+width: 100vw;
+}
+.my-work-card{
+align-items: flex-start;
+max-width: 224px;
+min-height: 323px;
+
+}
+h5{
+font-size: 14px;
+
+}
+.my-work-card>h3{
+font-size: 16px;
+}
+.card-green{
+position: relative;
+top: 40px;
+left: 10px;
+height: 45px;
+width: 30px;
+background-color: #A3CB38;
+z-index: +1;
+}
+.hr{
+height: 4px;
+width: 30px;
+background-color: #A3CB38;
+
+}
+/* Proud section */
+.proud-overall-container{
+    min-height: 593px;
+    
+    }
+    .proud-container{
+    max-width: 492px;
+    min-height: 424px;
+    background-color: #A3CB38;
+    
+    }
+    .proud-text{
+    max-width: 272px;
+    margin-right: 70px;
+    }
+    .proud-text-container{
+    min-height: 424px;
+    max-width: 958px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    }
+    #last-proud-text{
+    justify-self: flex-start;
+    }
+    .proud-container{
+    position: absolute;
+    right: 0px;
+    }
+    .proud-container>h1{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 136px;
+    color: white;
+    
+    }
+    
+ 
+/* My side hustle section */
+.my.hustle-overall.container{
+    max-width: auto;
+    min-height: 950px;
+    flex: warp;
+}
+.my.hustle-text-container{
+    max-width: 376px;
+}
+.my.my.hustle-text-container>p{
+    margin-top: 32px;
+}
+.hustle-image-container1{
+    align-items: flex-end;
+    }
+    .hustle-image-container,.hustle-image-container2{
+    flex-wrap: wrap;
+    }
+/* Styling footer section */
+footer{
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 273px;
+    }
+    footer p{
+    
+    padding-bottom: 64px;
+    
+    }
+    .contact-container >h2,.contact-container >a{
+    padding-left: 116px;
+    padding-top: 60px;
+    color: white;
+    margin-right: 282px;
+    }
+    .social-media-container{
+    width: 103px;
+    height: 20px;
+    margin-top:10px ;
+    margin-left:116px;
+    }
+    .social-media-container>img{
+    width: 20px;
+    
+    }
+    .contact-container{
+    position: absolute;
+    left: 0;
+    height: 273px;
+    padding-top: 60px;
+    max-width: 596px;
+    background-color: #A3CB38;
+    }
+    
+    
+/* Mobile friendly */
